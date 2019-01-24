@@ -36,6 +36,11 @@ class Model {
         UserDefaults.standard.set(amount, forKey: Constant.player_coins)
     }
     
+    // Function used to update the player's first time flag
+    func deletePreviousSave() {
+        UserDefaults.standard.set(false, forKey: Constant.previous_save)
+    }
+    
     // Check if it's the user's first play
     func isFirstTime() -> Bool {
         

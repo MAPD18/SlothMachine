@@ -27,11 +27,29 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Coin_-_New_Super_Mario_Bros" translatesAutoresizingMaskIntoConstraints="NO" id="7Vy-La-ezY">
-                                <rect key="frame" x="28" y="228" width="32" height="31"/>
+                                <rect key="frame" x="7" y="225" width="32" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="x01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jbs-X5-8IC">
-                                <rect key="frame" x="63" y="238" width="90" height="21"/>
+                                <rect key="frame" x="42" y="235" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="W: 0      L: 0      WR: 0.0%      T: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfd-UY-Bzz">
+                                <rect key="frame" x="89" y="172" width="262" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jackpot: 5000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4XJ-7z-VDe">
+                                <rect key="frame" x="214" y="230" width="153" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -49,32 +67,32 @@
                                 </connections>
                             </stepper>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1265px-Speech_balloon.svg" translatesAutoresizingMaskIntoConstraints="NO" id="6rM-Ma-AHd">
-                                <rect key="frame" x="89" y="455" width="251" height="107"/>
+                                <rect key="frame" x="102" y="458" width="251" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toad" translatesAutoresizingMaskIntoConstraints="NO" id="Wfm-uB-gS4">
-                                <rect key="frame" x="34" y="485" width="60" height="95"/>
+                                <rect key="frame" x="20" y="466" width="79" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="x10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PO2-sV-KBq">
-                                <rect key="frame" x="143" y="597" width="94" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bet x10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PO2-sV-KBq">
+                                <rect key="frame" x="130" y="594" width="119" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="3" height="2"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fah-HX-sYT">
-                                <rect key="frame" x="16" y="621" width="32" height="33"/>
+                                <rect key="frame" x="36" y="609" width="47" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Reset" image="recurring-appointment"/>
+                                <state key="normal" title="Reset" image="1up"/>
                                 <connections>
                                     <action selector="resetGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MMr-jv-cNa"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GOOD LUCK!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CkE-Wf-bLo">
-                                <rect key="frame" x="115" y="469" width="202" height="61"/>
+                                <rect key="frame" x="128" y="472" width="202" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
                                 <color key="textColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -82,16 +100,6 @@
                                 <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uke-wm-Egt">
-                                <rect key="frame" x="294" y="597" width="65" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="POW_Block_-_New_Super_Mario_Bros_Wii">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnSpinAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WZA-qu-wdM"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lww-Xm-nKe">
                                 <rect key="frame" x="19" y="362" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -116,24 +124,34 @@
                                 <rect key="frame" x="272" y="362" width="87" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clipart2157735" translatesAutoresizingMaskIntoConstraints="NO" id="6W8-a3-IgN">
-                                <rect key="frame" x="322" y="524" width="53" height="56"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uke-wm-Egt">
+                                <rect key="frame" x="275" y="596" width="75" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" image="POW_Block_-_New_Super_Mario_Bros_Wii">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSpinAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WZA-qu-wdM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="betCoinsLabel" destination="PO2-sV-KBq" id="2ng-xO-3fH"/>
                         <outlet property="block1" destination="7el-Ck-Z0v" id="qqd-J7-Fpw"/>
                         <outlet property="block2" destination="M6L-wY-Fh2" id="v6h-YA-ung"/>
                         <outlet property="block3" destination="Jfv-ms-3Dp" id="yoz-tW-oh4"/>
+                        <outlet property="btnReset" destination="fah-HX-sYT" id="alm-bO-0A8"/>
                         <outlet property="btnSpin" destination="uke-wm-Egt" id="es4-wj-i64"/>
-                        <outlet property="coinsLabel" destination="Jbs-X5-8IC" id="ggl-Qa-FBB"/>
+                        <outlet property="imgCharacter" destination="Wfm-uB-gS4" id="7pt-AU-bCn"/>
                         <outlet property="item1" destination="Lww-Xm-nKe" id="3KA-y2-esB"/>
                         <outlet property="item2" destination="03C-RE-KBP" id="Fek-sq-SbO"/>
                         <outlet property="item3" destination="dhf-Np-9qJ" id="tNf-NN-3Ps"/>
-                        <outlet property="messageLabel" destination="CkE-Wf-bLo" id="lLL-FH-8Rx"/>
+                        <outlet property="lblBetCoins" destination="PO2-sV-KBq" id="2ng-xO-3fH"/>
+                        <outlet property="lblCoins" destination="Jbs-X5-8IC" id="ggl-Qa-FBB"/>
+                        <outlet property="lblJackpot" destination="4XJ-7z-VDe" id="kgK-NC-mCc"/>
+                        <outlet property="lblMessage" destination="CkE-Wf-bLo" id="lLL-FH-8Rx"/>
+                        <outlet property="lblPlayerStats" destination="pfd-UY-Bzz" id="j9f-uQ-RIw"/>
                         <outlet property="stepper" destination="XyB-Jz-dfP" id="0l5-OL-LPn"/>
                     </connections>
                 </viewController>
@@ -144,13 +162,12 @@
     </scenes>
     <resources>
         <image name="1265px-Speech_balloon.svg" width="1265" height="1024"/>
+        <image name="1up" width="360.20571899414062" height="357.73715209960938"/>
         <image name="Coin_-_New_Super_Mario_Bros" width="1477" height="1790"/>
         <image name="Logo" width="1280" height="720"/>
         <image name="POW_Block_-_New_Super_Mario_Bros_Wii" width="2000" height="2000"/>
         <image name="Question_Block_Art_-_New_Super_Mario_Bros" width="1227" height="1225"/>
         <image name="background" width="193.91520690917969" height="344.7381591796875"/>
-        <image name="clipart2157735" width="488" height="587"/>
-        <image name="recurring-appointment" width="1200" height="1200"/>
         <image name="toad" width="897" height="1553"/>
     </resources>
 </document>
