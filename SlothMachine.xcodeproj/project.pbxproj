@@ -12,6 +12,10 @@
 		9D2B27A121F0464800286431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B279F21F0464800286431 /* Main.storyboard */; };
 		9D2B27A321F0464C00286431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B27A221F0464C00286431 /* Assets.xcassets */; };
 		9D2B27A621F0464C00286431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B27A421F0464C00286431 /* LaunchScreen.storyboard */; };
+		9D2B27AE21F05A5E00286431 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B27AD21F05A5E00286431 /* Model.swift */; };
+		9D2B27B021F05A8900286431 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B27AF21F05A8900286431 /* Utils.swift */; };
+		9D5B3FAC21F9A87D00D022BF /* overworld.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D5B3FAA21F9A87D00D022BF /* overworld.wav */; };
+		9D5B3FAD21F9A87D00D022BF /* smw_vine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D5B3FAB21F9A87D00D022BF /* smw_vine.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		9D2B27A221F0464C00286431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D2B27A521F0464C00286431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D2B27A721F0464C00286431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2B27AD21F05A5E00286431 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9D2B27AF21F05A8900286431 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9D5B3FAA21F9A87D00D022BF /* overworld.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = overworld.wav; sourceTree = "<group>"; };
+		9D5B3FAB21F9A87D00D022BF /* smw_vine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = smw_vine.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				9D2B279A21F0464800286431 /* SlothMachine */,
+				9D5B3FA521F9A14200D022BF /* Sounds */,
 				9D2B279921F0464800286431 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,8 +69,19 @@
 				9D2B27A221F0464C00286431 /* Assets.xcassets */,
 				9D2B27A421F0464C00286431 /* LaunchScreen.storyboard */,
 				9D2B27A721F0464C00286431 /* Info.plist */,
+				9D2B27AD21F05A5E00286431 /* Model.swift */,
+				9D2B27AF21F05A8900286431 /* Utils.swift */,
 			);
 			path = SlothMachine;
+			sourceTree = "<group>";
+		};
+		9D5B3FA521F9A14200D022BF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9D5B3FAA21F9A87D00D022BF /* overworld.wav */,
+				9D5B3FAB21F9A87D00D022BF /* smw_vine.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D2B27A621F0464C00286431 /* LaunchScreen.storyboard in Resources */,
+				9D5B3FAC21F9A87D00D022BF /* overworld.wav in Resources */,
 				9D2B27A321F0464C00286431 /* Assets.xcassets in Resources */,
 				9D2B27A121F0464800286431 /* Main.storyboard in Resources */,
+				9D5B3FAD21F9A87D00D022BF /* smw_vine.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2B27AE21F05A5E00286431 /* Model.swift in Sources */,
 				9D2B279E21F0464800286431 /* ViewController.swift in Sources */,
 				9D2B279C21F0464800286431 /* AppDelegate.swift in Sources */,
+				9D2B27B021F05A8900286431 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

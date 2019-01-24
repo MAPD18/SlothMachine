@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SlothMachine
 //
-//  Created by Thayllan Anacleto on 2019-01-17.
-//  Copyright © 2019 Thayllan Anacleto. All rights reserved.
+//  Created by Thayllan Anacleto (300973606), José Aleixo (301005491) and Rodrigo Silva (300993648) on 2019-01-17.
+//  Copyright © 2019 Sloth Machine. All rights reserved.
 //
 
 import UIKit
